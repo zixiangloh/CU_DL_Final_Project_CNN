@@ -7,7 +7,7 @@ from loader.multi_attribute_loader_file_list_semantic_segmentation import FileLi
 import sys
 
 print(__file__)
-path_sep = os.sep
+path_sep = os.sep  # Modified to use path separator for Windows pathing
 loader_folder = path_sep.join(__file__.split(path_sep)[:-1])
 print(loader_folder)
 with open('%s%scategory_to_class_number_per_car_synthetic_only_cars_no_police.p'%(loader_folder, path_sep),'rb') as F:
