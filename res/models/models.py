@@ -53,6 +53,18 @@ def get_model(MODEL_ARCH,NUM_CLASSES):
     if MODEL_ARCH == 'LATE_BRANCHING_COMBINED':
         from models.LATE_BRANCHING_COMBINED import resnet18
         return resnet18(num_classes = NUM_CLASSES)
+    if MODEL_ARCH == 'LATE_BRANCHING_COMBINED_no_batch_norm':
+        from models.LATE_BRANCHING_COMBINED_no_batch_norm import resnet18
+        return resnet18(num_classes = NUM_CLASSES)
+    if MODEL_ARCH == 'LATE_BRANCHING_COMBINED_low_momentum':
+        from models.LATE_BRANCHING_COMBINED_low_momentum import resnet18
+        return resnet18(num_classes = NUM_CLASSES)
+    if MODEL_ARCH == 'LATE_BRANCHING_COMBINED_avg_momentum':
+        from models.LATE_BRANCHING_COMBINED_avg_momentum import resnet18
+        return resnet18(num_classes = NUM_CLASSES)
+    if MODEL_ARCH == 'LATE_BRANCHING_COMBINED_high_momentum':
+        from models.LATE_BRANCHING_COMBINED_high_momentum import resnet18
+        return resnet18(num_classes = NUM_CLASSES)
     if MODEL_ARCH == 'LATE_BRANCHING_COMBINED_WIDER':
         from models.LATE_BRANCHING_COMBINED_WIDER import resnet18
         return resnet18(num_classes = NUM_CLASSES)
