@@ -72,7 +72,7 @@ def map_text_file_list_to_labels(txt_file_list, att_dict, debug=False):
     return file_lists, array_of_labels
 
 # We know after some amount of checks that the labels are ordered in the following manner:
-# [Scale, Rotation, Color, Model]
+# [Scale, Rotation + Shear, Color, Model]
 # We will now use this to our advantage to generate what we need for sheared car images.
 # The target label is Rotation. To make things simple, we will use the existing labels to guide us.
 
