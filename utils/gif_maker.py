@@ -15,6 +15,6 @@ def make_gif(frame_folder, out_file):
 
 
 if __name__ == "__main__":
-    input_frame_path = os.path.join("..", "data", "biased_cars_sheared", "RED_CARS", "train", "images")
-    output_file = os.path.join("..", "docs", "images", "biased_cars_sheared_samples.gif")
+    input_frame_path = os.path.join("..", "data", "biased_cars_blurred", "GREEN_CARS", "train", "images")
+    output_file = os.path.join("..", "docs", "images", "biased_cars_blurred_samples.gif")
     make_gif(input_frame_path, output_file)
