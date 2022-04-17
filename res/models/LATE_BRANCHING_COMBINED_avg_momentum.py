@@ -70,7 +70,7 @@ class Bottleneck(nn.Module):
         self.conv2 = conv3x3(width, width, stride, groups, dilation)
         self.bn2 = norm_layer(width,momentum=0.5)
         self.conv3 = conv1x1(width, planes * self.expansion)
-        self.bn3 = norm_layer(planes * self.expansion)
+        self.bn3 = norm_layer(planes * self.expansion, momentum=.5)
         self.relu = nn.ReLU(inplace=True)
         self.downsample = downsample
         self.stride = stride
