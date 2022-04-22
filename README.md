@@ -7,8 +7,7 @@ The original work is done by Madan et. al. We'll be using the original code prov
 
 There are 3 datasets that we use in this code:  
 MNIST Clothing Rotation (To experiment on a deformable object dataset as well as discrete rotations and noisy rotations).  
-![](docs/images/mnist_clothing_samples.gif)  
-<img src="docs/images/mnist_clothing_samples.gif" width="48">
+<img src="docs/images/mnist_clothing_samples.gif" width="55">
 
 Initial playground code:  
 This is located in demos/Deep_Learning_Project_Code_Playground.ipynb  
