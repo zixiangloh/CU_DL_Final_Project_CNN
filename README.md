@@ -49,7 +49,7 @@ This code transforms the original biased car dataset with additional shearing ef
 Diagramatic explanation for the Blurred/Sheared biased cars data architecture:  
 <a href="docs/images/"><img src="docs/images/Biased_Cars_Blurred_Sheared_Data_Architecture.png" width="900"></a>  
   
-We generated 4 models to evaluate different models:  
+We generated 4 models to evaluate different batch normalization conditions:  
 1. <a href="res/models/LATE_BRANCHING_COMBINED_no_batch_norm.py">LATE_BRANCHING_COMBINED_no_batch_norm</a>  
 2. <a href="res/models/LATE_BRANCHING_COMBINED_low_momentum.py">LATE_BRANCHING_COMBINED_low_momentum</a>  
 3. <a href="res/models/LATE_BRANCHING_COMBINED_avg_momentum.py">LATE_BRANCHING_COMBINED_avg_momentum</a>  
