@@ -46,7 +46,7 @@ This code transforms the original biased car dataset with additional shearing ef
 2. Run <a href="data/biased_cars_sheared/generate_biased_cars_sheared.py">data/biased_cars_sheared/generate_biased_cars_sheared.py</a> which transforms the original data and generates the sheared bias cars dataset.  
 3. After that, you can try running <a href="demos/using_biased_cars_modified_with_shear.ipynb">demos/using_biased_cars_modified_with_shear.ipynb</a> to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately. 
   
-Diagramatic explanation for the Blurred/Sheared biased cars data architecture:  
+**Diagramatic explanation for the Blurred/Sheared biased cars data architecture**:  
 <a href="docs/images/"><img src="docs/images/Biased_Cars_Blurred_Sheared_Data_Architecture.png" width="900"></a>  
   
 We generated 4 models to evaluate different batch normalization conditions:  
