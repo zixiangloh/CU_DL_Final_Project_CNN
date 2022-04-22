@@ -44,6 +44,7 @@ We generated 4 models to evaluate different models:
 2. <a href="res/models/LATE_BRANCHING_COMBINED_low_momentum.py">LATE_BRANCHING_COMBINED_low_momentum</a>  
 3. <a href="res/models/LATE_BRANCHING_COMBINED_avg_momentum.py">LATE_BRANCHING_COMBINED_avg_momentum</a>  
 4. <a href="res/models/LATE_BRANCHING_COMBINED_high_momentum.py">LATE_BRANCHING_COMBINED_high_momentum</a>  
+  
 The way to run these models is to change the ARCH parameter in the demo code to the names above.  
   
 To run with late-stopping, we can just change the epoch to a longer value than the default of 5.  
