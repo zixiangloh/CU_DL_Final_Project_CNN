@@ -31,13 +31,16 @@ Another code generates rotated MNIST Clothing images but this time with noise. T
 3. After running the above, you can try running <a href="demos/increasing_in_distribution_combinations_modified_with_mnist_noisyrotclothing.ipynb">demos/increasing_in_distribution_combinations_modified_with_mnist_noisyrotclothing.ipynb</a> to see the results of running on a noisy rotation dataset.  
 4. Alternately, running the demo code directly in colab (using the colab button) automatically runs both steps 1 and 2 for you.    
   
-Diagramatic explanation for the MNIST Clothing data architecture:  
+**Diagramatic explanation for the MNIST Clothing data architecture**:  
 <a href="docs/images/"><img src="docs/images/MNIST_Clothing_Data_Architecture.png" width="900"></a>  
 
-Biased car with blurring transformation:
-This code transforms the original biased car dataset with additional blurring effect. Please run the bash script in utils/download_biased_cars.sh first to download the original biased cars dataset and have it decompressed and setup. And then run data/biased_cars_blurred/generate_biased_cars_blurred.py which transforms the original data and generates the blurred bias cars dataset. After that, you can try running demos/using_biased_cars_modified_with_blur.ipynb to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately.  
+**Biased car with blurring transformation**:  
+This code transforms the original biased car dataset with additional blurring effect.  
+1. Run the bash script in <a href="utils/download_biased_cars.sh">utils/download_biased_cars.sh</a> first to download the original biased cars dataset and have it decompressed and setup.  
+2. Run <a href="data/biased_cars_blurred/generate_biased_cars_blurred.py">data/biased_cars_blurred/generate_biased_cars_blurred.py</a> which transforms the original data and generates the blurred bias cars dataset.  
+3. After that, you can try running <a href="demos/using_biased_cars_modified_with_blur.ipynb">demos/using_biased_cars_modified_with_blur.ipynb</a> to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately.  
   
-Biased car with shearing transformation:
+**Biased car with shearing transformation**:  
 This code transforms the original biased car dataset with additional shearing effect. Please run the bash script in <a href="utils/download_biased_cars.sh">utils/download_biased_cars.sh</a> first to download the original biased cars dataset and have it decompressed and setup. And then run <a href="data/biased_cars_sheared/generate_biased_cars_sheared.py">data/biased_cars_sheared/generate_biased_cars_sheared.py</a> which transforms the original data and generates the sheared bias cars dataset. After that, you can try running <a href="demos/using_biased_cars_modified_with_shear.ipynb">demos/using_biased_cars_modified_with_shear.ipynb</a> to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately. 
   
 Diagramatic explanation for the Blurred/Sheared biased cars data architecture:  
