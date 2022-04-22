@@ -32,6 +32,9 @@ This code transforms the original biased car dataset with additional blurring ef
 Biased car with shearing transformation:
 This code transforms the original biased car dataset with additional shearing effect. Please run the bash script in utils/download_biased_cars.sh first to download the original biased cars dataset and have it decompressed and setup. And then run data/biased_cars_sheared/generate_biased_cars_sheared.py which transforms the original data and generates the sheared bias cars dataset. After that, you can try running demos/using_biased_cars_modified_with_shear.ipynb to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately. 
   
+Diagramatic explanation for the Blurred/Sheared biased cars data architecture:  
+<img src="docs/images/Biased_Cars_Blurred_Sheared_Data_Architecture.png" width="900">  
+  
 Contributers:  
 Zixiang Loh zl3021@columbia.edu  
 Alexandre Raeval atr2122@columbia.edu  
