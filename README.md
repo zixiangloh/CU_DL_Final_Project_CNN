@@ -12,7 +12,7 @@ The original work is done by Madan et. al. We'll be using the original code prov
   
 There are 3 datasets that we use in this code:  
 1\. MNIST Clothing Rotation (To experiment on a deformable object dataset as well as discrete rotations and noisy rotations).  
-<img src="docs/images/mnist_clothing_samples.gif" width="55">  
+<a href="."><img src="docs/images/mnist_clothing_samples.gif" width="55"></a>  
 2\. Blurred Biased Car (To increase the transformations on the cars images).  
 <img src="docs/images/biased_cars_blurred_samples.gif" width="150">  
 3\. Sheared Biased Car (To increase the transformations on the cars images).  
