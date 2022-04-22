@@ -41,7 +41,10 @@ This code transforms the original biased car dataset with additional blurring ef
 3. After that, you can try running <a href="demos/using_biased_cars_modified_with_blur.ipynb">demos/using_biased_cars_modified_with_blur.ipynb</a> to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately.  
   
 **Biased car with shearing transformation**:  
-This code transforms the original biased car dataset with additional shearing effect. Please run the bash script in <a href="utils/download_biased_cars.sh">utils/download_biased_cars.sh</a> first to download the original biased cars dataset and have it decompressed and setup. And then run <a href="data/biased_cars_sheared/generate_biased_cars_sheared.py">data/biased_cars_sheared/generate_biased_cars_sheared.py</a> which transforms the original data and generates the sheared bias cars dataset. After that, you can try running <a href="demos/using_biased_cars_modified_with_shear.ipynb">demos/using_biased_cars_modified_with_shear.ipynb</a> to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately. 
+This code transforms the original biased car dataset with additional shearing effect.  
+1. Run the bash script in <a href="utils/download_biased_cars.sh">utils/download_biased_cars.sh</a> first to download the original biased cars dataset and have it decompressed and setup.  
+2. Run <a href="data/biased_cars_sheared/generate_biased_cars_sheared.py">data/biased_cars_sheared/generate_biased_cars_sheared.py</a> which transforms the original data and generates the sheared bias cars dataset.  
+3. After that, you can try running <a href="demos/using_biased_cars_modified_with_shear.ipynb">demos/using_biased_cars_modified_with_shear.ipynb</a> to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately. 
   
 Diagramatic explanation for the Blurred/Sheared biased cars data architecture:  
 <a href="docs/images/"><img src="docs/images/Biased_Cars_Blurred_Sheared_Data_Architecture.png" width="900"></a>  
