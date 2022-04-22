@@ -8,6 +8,8 @@ The original work is done by Madan et. al. We'll be using the original code prov
 There are 3 datasets that we use in this code:  
 MNIST Clothing Rotation (To experiment on a deformable object dataset as well as discrete rotations and noisy rotations).  
 <img src="docs/images/mnist_clothing_samples.gif" width="55">
+Blurred Biased Car (To increase the transformations on the cars images).
+<img src="docs/images/biased_cars_blurred_samples.gif" width="100">
 
 Initial playground code:  
 This is located in demos/Deep_Learning_Project_Code_Playground.ipynb  
