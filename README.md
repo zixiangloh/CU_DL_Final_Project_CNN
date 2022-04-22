@@ -17,15 +17,19 @@ Initial playground code:
 This is located in <a href="demos/Deep_Learning_Project_Code_Playground.ipynb">demos/Deep_Learning_Project_Code_Playground.ipynb</a>  
 (This code is our initial attempt at emulating and rotating the MNIST Handwriting dataset with rotations and noise by training a simpler network than what we have in the original paper). The goal is to illustrate the difficulty when it comes to viewpoint and category learning.  
 
-MNIST clothing rotation and discrete data transformation:
+**MNIST clothing rotation and discrete data transformation**:  
 This code generates rotated MNIST clothing images from the MNIST clothing dataset. The MNIST clothing dataset has 10 classes (similar to MNIST handwriting).  
 1. Run <a href="utils/download_mnist_rotation.sh">utils/download_mnist_rotation.sh</a>  
 2. Run <a href="data/mnist_clothing/gen_mnist_clothing_discrete_rotation_data.py">data/mnist_clothing/gen_mnist_clothing_discrete_rotation_data.py</a> to auto generate the clothing dataset with discrete rotation. The way the code work is it rotates the clothing dataset in discrete angles between 0 to 360 (in steps of 36) in order to form 10 unique rotation viewpoint classes. 
-3. After running it, you can try running <a href="demos/increasing_in_distribution_combinations_modified_with_mnist_clothing.ipynb">demos/increasing_in_distribution_combinations_modified_with_mnist_clothing.ipynb</a> to see how the network behaves when running on the rotated clothing dataset. 
-4. Alternately running the demo code directly in colab (using the colab button) automatically runs both steps for you.     
+3. After running the above, you can try running <a href="demos/increasing_in_distribution_combinations_modified_with_mnist_clothing.ipynb">demos/increasing_in_distribution_combinations_modified_with_mnist_clothing.ipynb</a> to see how the network behaves when running on the rotated clothing dataset. 
+4. Alternately, running the demo code directly in colab (using the colab button) automatically runs both steps 1 and 2 for you.     
   
-MNIST clothing rotation and noisy data transformation:
-Another code generates rotated MNIST Clothing images but this time with noise. The way the noise is generated is that it adds some fraction of rotation angle on top of the discrete angles from before. There's a code to generate the noisy version in /data/mnist_noisy_rotation_clothing/gen_mnist_clothing_noisy_rotation_data.py to autogenerate the noisy rotation version. After running it, you can try running demos/increasing_in_distribution_combinations_modified_with_mnist_noisyrotclothing.ipynb to see the results of running on a noisy rotation dataset. Alternately running the demo code directly in colab (using the colab button) automatically runs both steps for you.    
+**MNIST clothing rotation and noisy data transformation**:  
+Another code generates rotated MNIST Clothing images but this time with noise. The way the noise is generated is that it adds some fraction of rotation angle on top of the discrete angles from before.  
+1. Run <a href="utils/download_mnist_rotation.sh">utils/download_mnist_rotation.sh</a> if you haven't already.  
+2. Run the code to generate the noisy version in <a href="/data/mnist_noisy_rotation_clothing/gen_mnist_clothing_noisy_rotation_data.py">/data/mnist_noisy_rotation_clothing/gen_mnist_clothing_noisy_rotation_data.py</a> to autogenerate the noisy rotation version.  
+3. After running the above, you can try running <a href="demos/increasing_in_distribution_combinations_modified_with_mnist_noisyrotclothing.ipynb">demos/increasing_in_distribution_combinations_modified_with_mnist_noisyrotclothing.ipynb</a> to see the results of running on a noisy rotation dataset.  
+4. Alternately, running the demo code directly in colab (using the colab button) automatically runs both steps 1 and 2 for you.    
   
 Diagramatic explanation for the MNIST Clothing data architecture:  
 <a href="docs/images/"><img src="docs/images/MNIST_Clothing_Data_Architecture.png" width="900"></a>  
