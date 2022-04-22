@@ -13,7 +13,7 @@ There are 3 datasets that we use in this code:
 3\. Sheared Biased Car (To increase the transformations on the cars images).  
 <a href="docs/images/"><img src="docs/images/biased_cars_sheared_samples.gif" width="150"></a>  
 
-Initial playground code:  
+**Initial playground code**:  
 This is located in <a href="demos/Deep_Learning_Project_Code_Playground.ipynb">demos/Deep_Learning_Project_Code_Playground.ipynb</a>  
 (This code is our initial attempt at emulating and rotating the MNIST Handwriting dataset with rotations and noise by training a simpler network than what we have in the original paper). The goal is to illustrate the difficulty when it comes to viewpoint and category learning.  
 
