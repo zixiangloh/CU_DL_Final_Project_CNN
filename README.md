@@ -35,6 +35,12 @@ This code transforms the original biased car dataset with additional shearing ef
 Diagramatic explanation for the Blurred/Sheared biased cars data architecture:  
 <a href="docs/images/"><img src="docs/images/Biased_Cars_Blurred_Sheared_Data_Architecture.png" width="900"></a>  
   
+We generated 4 models to evaluate different models:  
+1. <a href="res/models/LATE_BRANCHING_COMBINED_no_batch_norm.py">Late Branching Combined No Batch Norm</a>  
+2. <a href="res/models/LATE_BRANCHING_COMBINED_low_momentum.py">Late Branching Combined Low Momentum</a>  
+3. <a href="res/models/LATE_BRANCHING_COMBINED_avg_momentum.py">Late Branching Combined Average Momentum</a>  
+4. <a href="res/models/LATE_BRANCHING_COMBINED_high_momentum.py">Late Branching Combined High Momentum</a>
+  
 Contributers:  
 Zixiang Loh zl3021@columbia.edu  
 Alexandre Raeval atr2122@columbia.edu  
