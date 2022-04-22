@@ -30,16 +30,19 @@ Biased car with blurring transformation:
 This code transforms the original biased car dataset with additional blurring effect. Please run the bash script in utils/download_biased_cars.sh first to download the original biased cars dataset and have it decompressed and setup. And then run data/biased_cars_blurred/generate_biased_cars_blurred.py which transforms the original data and generates the blurred bias cars dataset. After that, you can try running demos/using_biased_cars_modified_with_blur.ipynb to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately.  
   
 Biased car with shearing transformation:
-This code transforms the original biased car dataset with additional shearing effect. Please run the bash script in utils/download_biased_cars.sh first to download the original biased cars dataset and have it decompressed and setup. And then run data/biased_cars_sheared/generate_biased_cars_sheared.py which transforms the original data and generates the sheared bias cars dataset. After that, you can try running demos/using_biased_cars_modified_with_shear.ipynb to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately. 
+This code transforms the original biased car dataset with additional shearing effect. Please run the bash script in <a href="utils/download_biased_cars.sh">utils/download_biased_cars.sh</a> first to download the original biased cars dataset and have it decompressed and setup. And then run data/biased_cars_sheared/generate_biased_cars_sheared.py which transforms the original data and generates the sheared bias cars dataset. After that, you can try running demos/using_biased_cars_modified_with_shear.ipynb to train and evaluate the biased cars results. There's no colab button for this code unlike the MNIST clothing version so everything has to be run separately. 
   
 Diagramatic explanation for the Blurred/Sheared biased cars data architecture:  
 <a href="docs/images/"><img src="docs/images/Biased_Cars_Blurred_Sheared_Data_Architecture.png" width="900"></a>  
   
 We generated 4 models to evaluate different models:  
-1. <a href="res/models/LATE_BRANCHING_COMBINED_no_batch_norm.py">Late Branching Combined No Batch Norm</a>  
-2. <a href="res/models/LATE_BRANCHING_COMBINED_low_momentum.py">Late Branching Combined Low Momentum</a>  
-3. <a href="res/models/LATE_BRANCHING_COMBINED_avg_momentum.py">Late Branching Combined Average Momentum</a>  
-4. <a href="res/models/LATE_BRANCHING_COMBINED_high_momentum.py">Late Branching Combined High Momentum</a>
+1. <a href="res/models/LATE_BRANCHING_COMBINED_no_batch_norm.py">LATE_BRANCHING_COMBINED_no_batch_norm</a>  
+2. <a href="res/models/LATE_BRANCHING_COMBINED_low_momentum.py">LATE_BRANCHING_COMBINED_low_momentum</a>  
+3. <a href="res/models/LATE_BRANCHING_COMBINED_avg_momentum.py">LATE_BRANCHING_COMBINED_avg_momentum</a>  
+4. <a href="res/models/LATE_BRANCHING_COMBINED_high_momentum.py">LATE_BRANCHING_COMBINED_high_momentum</a>  
+The way to run these models is to change the ARCH parameter in the demo code to the names above.  
+  
+To run with late-stopping, we can just change the epoch to a longer value than the default of 5.  
   
 Contributers:  
 Zixiang Loh zl3021@columbia.edu  
