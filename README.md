@@ -6,10 +6,12 @@ https://github.com/Spandan-Madan/generalization_to_OOD_category_viewpoint_combin
 The original work is done by Madan et. al. We'll be using the original code provided by them as the baseline on which we'll make some modifications to investigate how we can improve on CNN generalization on OOD Samples.  
 
 There are 3 datasets that we use in this code:  
-MNIST Clothing Rotation (To experiment on a deformable object dataset as well as discrete rotations and noisy rotations).  
+1. MNIST Clothing Rotation (To experiment on a deformable object dataset as well as discrete rotations and noisy rotations).  
 <img src="docs/images/mnist_clothing_samples.gif" width="55">  
-Blurred Biased Car (To increase the transformations on the cars images).  
-<img src="docs/images/biased_cars_blurred_samples.gif" width="100">  
+2. Blurred Biased Car (To increase the transformations on the cars images).  
+<img src="docs/images/biased_cars_blurred_samples.gif" width="150">  
+3. Sheared Biased Car (To increase the transformations on the cars images).  
+<img src="docs/images/sheared_cars_blurred_samples.gif" width="150">  
 
 Initial playground code:  
 This is located in demos/Deep_Learning_Project_Code_Playground.ipynb  
