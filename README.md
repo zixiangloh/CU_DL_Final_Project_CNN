@@ -1,8 +1,3 @@
-img {
-  pointer-events: none;
-  user-select: none;
-}  
-
 # Investigating Techniques to Improve CNN Generalization on OOD Samples  
 
 This repository is heavily inspired by the original work from the following repo:  
