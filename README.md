@@ -11,7 +11,7 @@ There are 3 datasets that we use in this code:
 2. Blurred Biased Car (To increase the transformations on the cars images).  
 <img src="docs/images/biased_cars_blurred_samples.gif" width="150">  
 3. Sheared Biased Car (To increase the transformations on the cars images).  
-<img src="docs/images/sheared_cars_blurred_samples.gif" width="150">  
+<img src="docs/images/biased_cars_sheared_samples.gif" width="150">  
 
 Initial playground code:  
 This is located in demos/Deep_Learning_Project_Code_Playground.ipynb  
